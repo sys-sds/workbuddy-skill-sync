@@ -1,0 +1,16 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# local env / secrets
+.env
+*.local
+
+# WorkBuddy runtime residue (never ship)
+.workbuddy/
+node_modules/
+
+# dist artifacts
+dist/
